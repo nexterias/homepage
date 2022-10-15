@@ -9,7 +9,12 @@ updates:
     directory: '/' # Location of package manifests
     schedule:
       interval: 'daily'
+    labels:
+      - 'Type: Dependencies'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'daily'
+    labels:
+      - 'Type: Dependencies'
+      - 'Type: CI'
