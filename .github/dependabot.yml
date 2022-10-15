@@ -9,12 +9,14 @@ updates:
     directory: '/' # Location of package manifests
     schedule:
       interval: 'daily'
+      timezone: 'Asia/Tokyo'
     labels:
       - 'Type: Dependencies'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'daily'
+      timezone: 'Asia/Tokyo'
     labels:
       - 'Type: Dependencies'
       - 'Type: CI'
