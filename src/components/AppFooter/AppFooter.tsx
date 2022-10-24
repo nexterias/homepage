@@ -13,6 +13,7 @@ export const AppFooter: React.FC = () => {
                 icon={faGithub}
                 className="h-6 w-6 transition-opacity hover:opacity-70"
               />
+              <span className="sr-only">GitHub</span>
             </a>
           </li>
         </ul>
