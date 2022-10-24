@@ -1,0 +1,4 @@
+* text=auto
+
+# VS Code
+/.vscode/*.json linguist-language=jsonc
