@@ -3,11 +3,11 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
-import { Home } from './pages/Home'
-import { App } from './App'
-import { NotFound } from './pages/NotFound'
 import { RecoilRoot } from 'recoil'
+import App from './App'
+
+const Home = React.lazy(() => import('./pages/Home'))
+const NotFound = React.lazy(() => import('./pages/NotFound'))
 
 const router = createBrowserRouter([
   {

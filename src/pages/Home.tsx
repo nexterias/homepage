@@ -149,7 +149,7 @@ const Imagination: React.FC<SvgProps> = props => {
   )
 }
 
-export const Home = () => {
+const Home = () => {
   return (
     <>
       <div className="bg-gradient-to-b from-transparent to-slate-300/80 dark:to-slate-700/80">
@@ -193,3 +193,5 @@ export const Home = () => {
     </>
   )
 }
+
+export default Home
