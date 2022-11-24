@@ -2,7 +2,7 @@
   "name": "@nexterias/homepage",
   "type": "module",
   "volta": {
-    "node": "18.11.0"
+    "node": "18.12.1"
   },
   "scripts": {
     "prepare": "is-ci || husky install",
