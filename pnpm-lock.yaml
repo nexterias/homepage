@@ -5,7 +5,7 @@ specifiers:
   '@fortawesome/free-brands-svg-icons': ^6.2.1
   '@fortawesome/react-fontawesome': ^0.2.0
   '@headlessui/react': ^1.7.7
-  '@heroicons/react': ^2.0.13
+  '@heroicons/react': ^2.0.14
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
   '@typescript-eslint/eslint-plugin': ^5.48.2
@@ -36,7 +36,7 @@ dependencies:
   '@fortawesome/free-brands-svg-icons': 6.2.1
   '@fortawesome/react-fontawesome': 0.2.0_z27bm67dtmuyyvss23ckjdrcuy
   '@headlessui/react': 1.7.7_biqbaboplfbrettd7655fr4n2y
-  '@heroicons/react': 2.0.13_react@18.2.0
+  '@heroicons/react': 2.0.14_react@18.2.0
   clsx: 1.2.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -560,8 +560,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@heroicons/react/2.0.13_react@18.2.0:
-    resolution: {integrity: sha512-iSN5XwmagrnirWlYEWNPdCDj9aRYVD/lnK3JlsC9/+fqGF80k8C7rl+1HCvBX0dBoagKqOFBs6fMhJJ1hOg1EQ==}
+  /@heroicons/react/2.0.14_react@18.2.0:
+    resolution: {integrity: sha512-eFL4if6L7woL1fUvk/jjXx4z9NxVESHHrQnEd2qKVelTFTIr/3VLGWdPb0biia9ZVe26P0JSs/xmOlRNur3SrQ==}
     peerDependencies:
       react: '>= 16'
     dependencies:
