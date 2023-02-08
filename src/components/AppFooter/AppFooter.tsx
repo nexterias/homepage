@@ -8,7 +8,7 @@ export const AppFooter: React.FC = () => {
       <div className="flex flex-col items-center justify-center p-4">
         <ul>
           <li>
-            <a href="https://github.com/NEXTERIAS">
+            <a href="https://github.com/nexterias">
               <FontAwesomeIcon
                 icon={faGithub}
                 className="h-6 w-6 transition-opacity hover:opacity-70"
