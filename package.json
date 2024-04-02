@@ -13,8 +13,8 @@
     "lint": "prettier -c . && eslint --ext=tsx,ts,js,cjs ./"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.3.0",
-    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.0.18",
