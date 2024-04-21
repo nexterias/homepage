@@ -1,0 +1,4 @@
+/public
+/.next
+/pnpm-lock.yaml
+*.mist.tsx

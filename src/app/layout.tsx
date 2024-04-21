@@ -1,20 +1,26 @@
-import "./globals.css";
-import type { Metadata } from "next";
+import { Header } from '@/components/layouts/Header'
+import './globals.css'
+import type { Metadata } from 'next'
+import { Footer } from '@/components/layouts/Footer'
 
 export const metadata: Metadata = {
-  title: { default: "Home", template: "%s | The NEXTERIAS" },
-  description: "学生によるオープンソースソフトウェア開発集団",
-  icons: [{ rel: "icon", type: "image/svg+xml", url: "/favicon.svg" }],
-};
+  title: { default: 'Home', template: '%s | The NEXTERIAS' },
+  description: '学生によるオープンソースソフトウェア開発集団',
+  icons: [{ rel: 'icon', type: 'image/svg+xml', url: '/logo.svg' }],
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body className="min-h-screen dark:bg-black dark:text-white">
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
-  );
+  )
 }

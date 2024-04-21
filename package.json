@@ -3,28 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prepare": "mistcss ./src",
-    "dev": "concurrently 'mistcss ./src --watch' 'next dev'",
     "build": "mistcss ./src && next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "concurrently 'mistcss ./src --watch' 'next dev'",
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
+    "lint": "next lint",
+    "prepare": "mistcss ./src",
+    "start": "next start"
   },
   "dependencies": {
-    "next": "14.1.4",
+    "@icons-pack/react-simple-icons": "^9.4.1",
+    "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@nexterias/prettier-config": "^1.1.0",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
     "autoprefixer": "^10.0.1",
     "concurrently": "^8.2.2",
     "eslint": "^8",
-    "eslint-config-next": "14.1.4",
-    "mistcss": "^0.3.8",
+    "eslint-config-next": "14.2.2",
+    "mistcss": "^0.4.0",
     "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "^5.4.5"
   }
 }

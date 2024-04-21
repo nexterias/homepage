@@ -1,46 +1,46 @@
-import { ImageResponse } from "next/og";
+import { ImageResponse } from 'next/og'
 
-export const runtime = "edge";
+export const runtime = 'edge'
 
-export const contentType = "image/png";
-export const alt = "We are NEXTERIAS, We are Happy Coders";
+export const contentType = 'image/png'
+export const alt = 'We are NEXTERIAS, We are Happy Coders'
 export const size = {
   width: 1200,
   height: 630,
-};
+}
 
 export default function OpenGraph() {
   return new ImageResponse(
     (
       <div
         style={{
-          width: "100%",
-          height: "100%",
-          background: "#000",
-          color: "white",
-          display: "flex",
-          flexDirection: "column",
+          width: '100%',
+          height: '100%',
+          background: '#000',
+          color: 'white',
+          display: 'flex',
+          flexDirection: 'column',
         }}
       >
         <div
           style={{
-            height: "100%",
+            height: '100%',
             width: '100%',
             fontWeight: 'bolder',
             fontSize: 96,
-            display: "flex",
+            display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
           }}
         >
           <span>We are</span>
           <span
             style={{
-              backgroundImage: "linear-gradient(45deg, #f3ec78, #af4261)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              color: "transparent",
-              marginLeft: 16
+              backgroundImage: 'linear-gradient(45deg, #ca8a04, #db2777)',
+              backgroundClip: 'text',
+              WebkitBackgroundClip: 'text',
+              color: 'transparent',
+              marginLeft: 16,
             }}
           >
             Happy Coders
@@ -48,10 +48,10 @@ export default function OpenGraph() {
         </div>
         <div
           style={{
-            position: "absolute",
+            position: 'absolute',
             bottom: 32,
             right: 32,
-            display: "flex",
+            display: 'flex',
             alignItems: 'center',
             color: '#fff',
           }}
@@ -84,6 +84,6 @@ export default function OpenGraph() {
     ),
     {
       ...size,
-    },
-  );
+    }
+  )
 }
