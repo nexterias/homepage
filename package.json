@@ -14,8 +14,8 @@
   "dependencies": {
     "@icons-pack/react-simple-icons": "^9.4.1",
     "next": "14.2.2",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@nexterias/prettier-config": "^1.1.0",
