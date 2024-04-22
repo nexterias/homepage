@@ -1,8 +1,7 @@
 {
   "recommendations": [
-    "codezombiech.gitignore",
-    "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode"
   ]
 }
