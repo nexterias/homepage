@@ -1,0 +1,3 @@
+{
+  "extends": ["github>nexterias/renovate", "github>nexterias/renovate:gitmoji"]
+}
