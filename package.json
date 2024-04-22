@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "mistcss ./src && next build",
-    "dev": "concurrently 'mistcss ./src --watch' 'next dev'",
+    "dev": "concurrently 'mistcss ./src --watch' 'next dev --turbo'",
     "format": "prettier -w .",
     "format:check": "prettier -c .",
     "lint": "next lint",
