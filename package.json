@@ -8,7 +8,7 @@
     "format": "prettier -w .",
     "format:check": "prettier -c .",
     "lint": "next lint",
-    "prepare": "mistcss ./src",
+    "prepare": "mistcss ./src && lefthook install",
     "start": "next start"
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "concurrently": "^8.2.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.2",
+    "lefthook": "^1.6.10",
     "mistcss": "^0.4.0",
     "postcss": "^8",
     "prettier": "^3.2.5",
