@@ -52,7 +52,7 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0
       postcss:
-        specifier: ^8
+        specifier: ^8.4.38
         version: 8.4.38
       prettier:
         specifier: ^3.2.5
