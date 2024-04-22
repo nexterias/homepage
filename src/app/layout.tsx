@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Footer } from '@/components/layouts/Footer'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.nexterias.dev'),
   title: { default: 'Home', template: '%s | The NEXTERIAS' },
   description: '学生によるオープンソースソフトウェア開発集団',
   icons: [{ rel: 'icon', type: 'image/svg+xml', url: '/logo.svg' }],
