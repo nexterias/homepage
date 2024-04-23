@@ -34,6 +34,7 @@ jobs:
       - run: pnpm lint
 
       - uses: nexterias/actions-vercel@v1
+        id: vercel
         with:
           token: ${{ secrets.VERCEL_TOKEN }}
           org-id: ${{ secrets.VERCEL_ORG_ID }}
