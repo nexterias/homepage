@@ -40,3 +40,17 @@ jobs:
           project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           production: ${{ github.ref == 'refs/heads/main' }}
           prebuilt: true
+
+      - name: Lighthouse CI - Healthcheck
+        run: pnpm dlx @lhci/cli@0.13.x healthcheck --fatal
+
+      - name: Lighthouse CI - Collect
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            pnpm dlx @lhci/cli@0.13.x collect -n 1 --url ${{ steps.vercel.outputs.deployment-url }} --url https://www.nexterias.dev
+          else 
+            pnpm dlx @lhci/cli@0.13.x collect -n 1 --url ${{ steps.vercel.outputs.deployment-url }}
+          fi
+
+      - name: Lighthouse CI - Upload
+        run: pnpm dlx @lhci/cli@0.13.x upload --githubToken ${{ secrets.GITHUB_TOKEN }} --target temporary-public-storage
