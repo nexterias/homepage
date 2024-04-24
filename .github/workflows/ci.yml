@@ -48,8 +48,8 @@ jobs:
       - name: Lighthouse CI - Collect
         run: |
           if [ "${{ github.ref }}" = "refs/heads/main" ]; then
-            pnpm dlx @lhci/cli@0.13.x collect -n 1 --url ${{ steps.vercel.outputs.deployment-url }} --url https://www.nexterias.dev
-          else 
+            pnpm dlx @lhci/cli@0.13.x collect -n 1 --url https://www.nexterias.dev
+          else
             pnpm dlx @lhci/cli@0.13.x collect -n 1 --url ${{ steps.vercel.outputs.deployment-url }}
           fi
 
