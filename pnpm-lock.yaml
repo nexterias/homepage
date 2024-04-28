@@ -49,8 +49,8 @@ importers:
         specifier: ^1.6.10
         version: 1.6.10
       mistcss:
-        specifier: ^0.4.0
-        version: 0.4.0
+        specifier: ^0.5.0
+        version: 0.5.0
       postcss:
         specifier: ^8.4.38
         version: 8.4.38
@@ -1672,8 +1672,8 @@ packages:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
 
-  mistcss@0.4.0:
-    resolution: {integrity: sha512-wBeRN6Veacha0S9KDNYoaJPtDMpq1SNKImGMIfcrvnh4YXZMNzroAVUUHbb0P7ooQpGI4e3Jd84etZF9TVVGpw==}
+  mistcss@0.5.0:
+    resolution: {integrity: sha512-qZqPR5hieqYmY3BVWNdyKjZvf4pbuqo8whDVAvDNtIZLbns3zt/YG10lMCg5I17JKM2nVckgaIZXTgfZuP8jwA==}
     hasBin: true
 
   mkdirp@0.5.6:
@@ -2312,8 +2312,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  stylis@4.3.1:
-    resolution: {integrity: sha512-EQepAV+wMsIaGVGX1RECzgrcqRRU/0sYOHkeLsZ3fzHaHXZy4DaOOX0vOlGQdlsjkh3mFHAIlVimpwAs4dslyQ==}
+  stylis@4.3.2:
+    resolution: {integrity: sha512-bhtUjWd/z6ltJiQwg0dUfxEJ+W+jdqQd8TbWLWyeIJHlnsqmGLRFFd8e5mA0AZi/zx90smXRlN66YMTcaSFifg==}
 
   sucrase@3.35.0:
     resolution: {integrity: sha512-8EbVDiu9iN/nESwxeSxDKe0dunta1GOlHufmSSXxMD2z2/tMZpDMpvXQGsc+ajGo8y2uYUmixaSRUc/QPoQ0GA==}
@@ -4410,11 +4410,11 @@ snapshots:
       minipass: 3.3.6
       yallist: 4.0.0
 
-  mistcss@0.4.0:
+  mistcss@0.5.0:
     dependencies:
       chokidar: 3.6.0
       globby: 14.0.1
-      stylis: 4.3.1
+      stylis: 4.3.2
 
   mkdirp@0.5.6:
     dependencies:
@@ -4981,7 +4981,7 @@ snapshots:
       client-only: 0.0.1
       react: 18.3.0
 
-  stylis@4.3.1: {}
+  stylis@4.3.2: {}
 
   sucrase@3.35.0:
     dependencies:

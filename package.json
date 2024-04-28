@@ -27,7 +27,7 @@
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.3",
     "lefthook": "^1.6.10",
-    "mistcss": "^0.4.0",
+    "mistcss": "^0.5.0",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
