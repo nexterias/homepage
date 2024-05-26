@@ -49,8 +49,8 @@ importers:
         specifier: ^1.6.12
         version: 1.6.12
       mistcss:
-        specifier: ^0.5.2
-        version: 0.5.2
+        specifier: ^0.5.3
+        version: 0.5.3
       postcss:
         specifier: ^8.4.38
         version: 8.4.38
@@ -1244,6 +1244,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@13.24.0:
     resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
@@ -1675,8 +1676,8 @@ packages:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
 
-  mistcss@0.5.2:
-    resolution: {integrity: sha512-t42EN8TKuwVwbQ+3BfWxigURX/vU7gP0anmUa5HJvZgbCRgv2ibsCylY08NMR9GGEhTGOaJAdJyVEN+RXMrKsA==}
+  mistcss@0.5.3:
+    resolution: {integrity: sha512-+H42G9QQk+VWF1dZ4MszNKHLLwiqdUyaPXHgTQJU4c+8ZyHOkB9mKYMTY8p26ZkCoT005KK+YXYegcD61b1NAw==}
     hasBin: true
 
   mkdirp@0.5.6:
@@ -2135,6 +2136,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   run-parallel@1.2.0:
@@ -4414,7 +4416,7 @@ snapshots:
       minipass: 3.3.6
       yallist: 4.0.0
 
-  mistcss@0.5.2:
+  mistcss@0.5.3:
     dependencies:
       chokidar: 3.6.0
       globby: 14.0.1
