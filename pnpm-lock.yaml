@@ -49,8 +49,8 @@ importers:
         specifier: ^1.6.18
         version: 1.6.18
       mistcss:
-        specifier: ^0.5.4
-        version: 0.5.4
+        specifier: ^0.5.5
+        version: 0.5.5
       postcss:
         specifier: ^8.4.39
         version: 8.4.39
@@ -1678,8 +1678,8 @@ packages:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
 
-  mistcss@0.5.4:
-    resolution: {integrity: sha512-PI3X6giBbtxh04xTsCirWZdIK2B7/R0AGw8bbuNo7E2KQf7IzciZwiqiT50ET8mkTaz0bM8/x4D/fmvwAoJDIw==}
+  mistcss@0.5.5:
+    resolution: {integrity: sha512-4dXTjm521zDZ/sHfsw3HOaoAl4jDUZeyxnGt87HMcXvrMvL1+LuTowmdtxCNZPipz5/DCtamhoaKF8IyDxIE5w==}
     hasBin: true
 
   mkdirp@0.5.6:
@@ -4421,7 +4421,7 @@ snapshots:
       minipass: 3.3.6
       yallist: 4.0.0
 
-  mistcss@0.5.4:
+  mistcss@0.5.5:
     dependencies:
       chokidar: 3.6.0
       globby: 14.0.1
