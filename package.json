@@ -26,7 +26,7 @@
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.7",
-    "lefthook": "^1.7.14",
+    "lefthook": "^1.7.15",
     "mistcss": "^0.5.5",
     "postcss": "^8.4.43",
     "prettier": "^3.2.5",
