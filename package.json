@@ -20,7 +20,7 @@
   "devDependencies": {
     "@nexterias/prettier-config": "^1.1.0",
     "@types/node": "^20.12.14",
-    "@types/react": "^18.3.6",
+    "@types/react": "^18.3.7",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "concurrently": "^8.2.2",
