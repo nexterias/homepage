@@ -23,7 +23,7 @@ importers:
     devDependencies:
       '@nexterias/prettier-config':
         specifier: ^1.1.0
-        version: 1.1.0(prettier@3.2.5)
+        version: 1.1.0(prettier@3.4.2)
       '@types/node':
         specifier: ^20.12.14
         version: 20.13.0
@@ -55,11 +55,11 @@ importers:
         specifier: ^8.4.49
         version: 8.4.49
       prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
+        specifier: ^3.4.2
+        version: 3.4.2
       prettier-plugin-tailwindcss:
         specifier: ^0.6.9
-        version: 0.6.9(prettier@3.2.5)
+        version: 0.6.9(prettier@3.4.2)
       tailwindcss:
         specifier: ^3.4.16
         version: 3.4.16(ts-node@10.9.1(@types/node@20.13.0)(typescript@5.4.5))
@@ -2092,8 +2092,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2806,9 +2806,9 @@ snapshots:
   '@next/swc-win32-x64-msvc@14.2.19':
     optional: true
 
-  '@nexterias/prettier-config@1.1.0(prettier@3.2.5)':
+  '@nexterias/prettier-config@1.1.0(prettier@3.4.2)':
     dependencies:
-      prettier-plugin-packagejson: 2.5.0(prettier@3.2.5)
+      prettier-plugin-packagejson: 2.5.0(prettier@3.4.2)
     transitivePeerDependencies:
       - prettier
 
@@ -4804,18 +4804,18 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-packagejson@2.5.0(prettier@3.2.5):
+  prettier-plugin-packagejson@2.5.0(prettier@3.4.2):
     dependencies:
       sort-package-json: 2.10.0
       synckit: 0.9.0
     optionalDependencies:
-      prettier: 3.2.5
+      prettier: 3.4.2
 
-  prettier-plugin-tailwindcss@0.6.9(prettier@3.2.5):
+  prettier-plugin-tailwindcss@0.6.9(prettier@3.4.2):
     dependencies:
-      prettier: 3.2.5
+      prettier: 3.4.2
 
-  prettier@3.2.5: {}
+  prettier@3.4.2: {}
 
   pretty-ms@7.0.1:
     dependencies:
