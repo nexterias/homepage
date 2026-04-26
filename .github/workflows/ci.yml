@@ -33,7 +33,7 @@ jobs:
       - run: pnpm format:check
       - run: pnpm lint
 
-      - uses: nexterias/actions-vercel@v1
+      - uses: nexterias/actions-vercel@v2
         id: vercel
         with:
           token: ${{ secrets.VERCEL_TOKEN }}
